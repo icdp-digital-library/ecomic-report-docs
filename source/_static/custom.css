@@ -1,0 +1,91 @@
+/* Stili personalizzati per Ecomic - compatibili con Docs Italia */
+
+/* Colori PA */
+:root {
+    --pa-blue: #0066CC;
+    --pa-light-blue: #E6F2FF;
+    --pa-dark-blue: #004B99;
+}
+
+/* Miglioramenti per la lettura */
+.wy-nav-content {
+    max-width: 1200px;
+}
+
+.rst-content {
+    line-height: 1.6;
+}
+
+/* Stili per le tabelle */
+.rst-content table.docutils {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    border: 2px solid var(--pa-blue);
+}
+
+.rst-content table.docutils thead {
+    background-color: var(--pa-light-blue);
+}
+
+.rst-content table.docutils th {
+    background-color: var(--pa-blue);
+    color: white;
+    padding: 12px 8px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.rst-content table.docutils td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.rst-content table.docutils tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Stili per le note e avvisi */
+.admonition {
+    margin: 1.5em 0;
+    padding: 1em;
+    border-left: 4px solid var(--pa-blue);
+    background-color: var(--pa-light-blue);
+}
+
+.admonition-title {
+    font-weight: bold;
+    color: var(--pa-dark-blue);
+}
+
+/* Miglioramenti per le figure */
+.figure {
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    font-style: italic;
+    margin-top: 0.5em;
+    color: #666;
+}
+
+/* Stili per i titoli */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--pa-dark-blue);
+}
+
+/* Link */
+a {
+    color: var(--pa-blue);
+}
+
+a:hover {
+    color: var(--pa-dark-blue);
+}

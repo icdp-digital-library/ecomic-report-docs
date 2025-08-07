@@ -1,0 +1,15 @@
+document:
+  name: Ecomic - Ecosistema digitale per la cultura
+  description: Report di inquadramento concettuale dell'ecosistema digitale per la cultura
+  tags: 
+    - ecosistema digitale
+    - patrimonio culturale
+    - digitalizzazione
+    - ecomic
+  language: it
+  version: "1.0"
+  publication_date: "2025"
+  authors:
+    - Istituto centrale per la digitalizzazione del patrimonio culturale - Digital Library
+  license: CC BY-NC-SA 4.0
+  cover_image: source/_static/image1.png
